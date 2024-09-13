@@ -1,10 +1,13 @@
 import { Rationale } from "next/font/google";
 
+
+const ratio = Rationale({ subsets: ["latin"], weight: ['400'] });
+
 export const movies =[
     {
 		title: 'Sholay',
 		img: 'Sholay.png',
-		epilogue: 'The film concludes with a dramatic showdown between the protagonists, Jai and Veeru, and the villainous bandit, Gabbar Singh. The heroe&apos sacrifices lead to Gabbar&apos defeat and the restoration of peace to the village',
+		epilogue: 'The film concludes with a dramatic showdown between the protagonists, Jai and Veeru, and the villainous bandit, Gabbar Singh. The heroe\'s sacrifices lead to Gabbar\'s defeat and the restoration of peace to the village',
 		dateReleased: 'August 15, 1975',
 		category: 'Action/Drama',
 		type: 'Feature Film',
@@ -33,7 +36,7 @@ export const movies =[
 
 	title: 'Lagaan',
 	img: 'Lagaan.png',
-	epilogue: 'The villagers, led by Bhuvan, win a cricket match against the British, thereby relieving their lagaan (tax) and gaining respect and independence from British rule.',
+	epilogue: 'The villagers, led by Bhuvan, win a cricket match against the British, thereby relieving their lagaan and gaining respect and independence from British rule.',
 	dateReleased: 'June 15, 2001',
 	category: 'Historical Drama',
 	type: 'Feature Film',
@@ -61,7 +64,7 @@ export const movies =[
 	,{
 	title: '3 Idiots',
 	img: '3-Idiots.png',
-	epilogue: 'The film ends with the protagonists fulfilling their dreams and finding their true calling, reflecting on their journey through college and the importance of following one&aposs passion.',
+	epilogue: 'The film ends with the protagonists fulfilling their dreams and finding their true calling, reflecting on their journey through college and the importance of following one\'s passion.',
 	dateReleased: 'December 25, 2009',
 	category: 'Comedy/Drama',
 	type: 'Feature Film',
@@ -103,7 +106,7 @@ export const movies =[
 	,{
 	title: 'Barfi!',
 	img:'Barfi.png',
-	epilogue: 'The film ends with Barfi&aposs love story and his life with his two beloved women, showing his resilience and the joy he brings despite his challenges.',
+	epilogue: 'The film ends with Barfi\'s love story and his life with his two beloved women, showing his resilience and the joy he brings despite his challenges.',
 	dateReleased: 'September 14, 2012',
 	category: 'Romance/Comedy-Drama',
 	type: 'Feature Film',
@@ -131,7 +134,7 @@ export const movies =[
 	,{
 	title: 'Mother India',
 	img:'Mother-India.png',
-	epilogue: 'The film concludes with the mother’s sacrifice and struggle culminating in her final act of heroism, portraying the strength and resilience of Indian women.',
+	epilogue: 'The film concludes with the mother\'s sacrifice and struggle culminating in her final act of heroism, portraying the strength and resilience of Indian women.',
 	dateReleased: 'October 15, 1957',
 	category: 'Drama',
 	type: 'Feature Film',
@@ -188,7 +191,7 @@ export const movies =[
 	,{
 	title: 'Dangal',
 	img:'Dangal.png',
-	epilogue: 'The film concludes with Geeta Phogat winning a gold medal at the Commonwealth Games, fulfilling her father&aposs dream and establishing herself as a champion wrestler',
+	epilogue: 'The film concludes with Geeta Phogat winning a gold medal at the Commonwealth Games, fulfilling her father\'s dream and establishing herself as a champion wrestler',
 	dateReleased: 'December 23, 2016',
 	category: 'Sports/Drama',
 	type: 'Feature Film',

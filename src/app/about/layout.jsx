@@ -16,12 +16,12 @@ export default function AboutLayout({children}) {
           <div className="bg-black w-full opacity-80 h-screen absolute top-0 z-20"></div>
           <div className="relative z-50"> 
 
-          <h1 className="mx-6"> </h1>
+          <h1 className="mx-7"> </h1>
           <p className="mx-6 flex flex-wrap ">
             <span className="underline font-bold">About Us</span>
 
 
-Welcome to BollyG, where your insatiable movie needs are met. Founded in 2019 by Gaiya Caleb, we are dedicated to making your movie experiences second to none.
+Welcome to BollyG, where your insatiable movie needs are met. Founded in 2019 by Mr Gaiya, we are dedicated to making your movie experiences second to none.
 
 </p>
 <h3 className="py-5 px-5 underline font-bold ">Our Mission</h3>

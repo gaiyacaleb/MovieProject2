@@ -29,7 +29,7 @@ Welcome to BollyG, where your insatiable movie needs are met. Founded in 2019 by
 
           
             <h3 className="m-5 underline font-bold">Our Vision</h3>
-            <p>BollyG began with a vision to of creating a service for a beautiful service for indians to go watch newly released movies and also classics. Mr Gaiya has always been saddened with the fact that he would have to go do movie stands everyday just to see a movie and hence came the idea . Over the years, we have grown from a pool of movies  to a big movie outlet, thanks to hardwork of the OG "Mr Gaiya"
+            <p>BollyG began with a vision to of creating a service for a beautiful service for indians to go watch newly released movies and also classics. Mr Gaiya has always been saddened with the fact that he would have to go do movie stands everyday just to see a movie and hence came the idea . Over the years, we have grown from a pool of movies  to a big movie outlet, thanks to hardwork of the OG also known as Mr Gaiya.
             </p>
           </div>
           

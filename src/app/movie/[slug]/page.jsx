@@ -45,7 +45,7 @@ export default function MovieDetails({params}) {
 
       <h2 className="text-2xl font-bold text-yellow-600 bg-black  ">Related movies</h2>
  
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4  bg-cover h-[1000px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4  bg-cover h-fit">
       {relatedCard}
     
       </div>

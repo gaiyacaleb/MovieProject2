@@ -43,7 +43,7 @@ export default function MovieDetails({params}) {
           className="bg-slate-900 text-slate-50 p-3  rounded-full md hover:text-yellow-500" disabled={disable}>add to favorites {added}
         </button>
 
-      <h2 className="text-2xl font-bold text-yellow-600 bg-black  ">Related movies</h2>
+      <h2 className="text-2xl font-bold text-yellow-600 bg-black hover:text-rose-900  ">Related movies</h2>
  
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:grid-cols-1 bg-cover h-fit">
       {relatedCard}

@@ -30,7 +30,7 @@ const cards = filterLists.length == 0 ?(
       onChange={(e)=>filterSearch(e)}/>
       <IoMdSearch className="text-2xl"/>
     </div>
-    <div className="grid grid-cols-3 gap-4 px-16 py-32 capitalize">
+    <div className="grid grid-cols-3 gap-4 px-16 py-32  capitalize">
       {cards}
 
     </div>

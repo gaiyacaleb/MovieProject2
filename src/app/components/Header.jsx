@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Header() {
-  const two = 'Welcome'
+  const two = ''
   return(
 
     

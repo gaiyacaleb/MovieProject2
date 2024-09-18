@@ -12,7 +12,7 @@ export const metadata = {
 const Sat = Satisfy({ subsets: ["latin"], weight: ['400'] });
 export default function AboutLayout({children}) {
     return (
-      <div className="text-2xl flex flex-wrap  capitalize caption-top text-white bg-[url(/forestboy.png)] h-screen relative z-10">
+      <div className="text-2xl flex flex-wrap  capitalize caption-top text-white bg-[url(/forestboy.png)] h-fit relative z-10">
           <div className="bg-black w-full opacity-80 h-screen absolute top-0 z-20"></div>
           <div className="relative z-50"> 
 

@@ -1,12 +1,28 @@
 "use client"
 
-import { createContext, useState } from "react"
+import { useState, useEffect } from "react";
+import { createContext } from "react";
 
-const SidebarContext = createContext()
+const SidebarContext = createContext();
 
 const SidebarProvider = ({children}) => {
-    const[val, setVal] = useState(0)
-    const [movieItem, setMovieItem] = useState([])
+    const[val, setVal] = useState(0);
+    const [movieItem, setMovieItem] = useState([]);
+
+
+
+
+    useEffect(()=> {
+      const storedData = localStorage.getItem
+      ("sidebarData");
+      if (storedData){
+        const { val: storedVal, movieItem:
+          storedMovieItem } = JSON.parse(storedData);
+          setVal(storedVal);
+          setMovieItem(storedMovieItem);
+        
+      }
+    },[])
 
     
   return (

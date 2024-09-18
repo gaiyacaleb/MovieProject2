@@ -12,13 +12,13 @@ import { useState } from "react";
 const Sat = Satisfy({ subsets: ["latin"], weight: ['400'] });
 
 export default function MovieDetails({params}) {
-   const [added, setAdded] = useState('add to favorites')
+   const [added, setAdded] = useState('')
    const [disable, setDisable] = useState(false)
   const {setVal, movieItem, setMovieItem} = useContext(SidebarContext)
 
   function handleMovieAdd(){
     setDisable(true)
-    setAdded('added already')
+    setAdded('added ')
     setVal(prev => prev + 1)
     setMovieItem([...movieItem, {title: details.title, epilogue: details.epilogue, category: details.category, img: details.img, date:details.dateReleased}] )
   }

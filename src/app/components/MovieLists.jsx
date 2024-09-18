@@ -14,7 +14,7 @@ export default function MovieList() {
   )).slice(0,9) 
 return (
   <>
-  < div className='grid grid-cols-3 gap-2 px-16 py-32 capitalize '>
+  < div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-2 px-16 py-32 capitalize '>
       {cards}
      
      </div>

@@ -8,7 +8,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 export default function ContactPage() {
   return (
-    <div className='bg-[url(/enjoyment.png)]  bg-cover'>
+    <div className='bg-[url(/enjoyment.png)]  bg-cover h-fit'>
         <div className='md:block hidden '>
             <div className='mx-auto text-center '>
                 <h3 className='capitalize font-bold text-4xl mt-10 text-blue-950'>Get in touch with us</h3>

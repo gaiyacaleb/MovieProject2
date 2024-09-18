@@ -33,7 +33,7 @@ export default function MovieDetails({params}) {
     
     
   return (
-    <div className= "bg-[url(/darkclouds.png)] h-[1000px] text-white  bg-cover">
+    <div className= "bg-[url(/darkclouds.png)] h-fit text-white  bg-cover">
         <h1 className="">{details.title}</h1>
         <p className=''>{details.epilogue}</p>
         <p className="">{details.category}</p>

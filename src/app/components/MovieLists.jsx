@@ -11,7 +11,7 @@ export default function MovieList() {
           <MovieCard  title={card.title} type={card.type} rate={card.rating} img={card.img} category={card.category}/>
         </Link>
       </section>
-  )).slice(0,9)
+  )).slice(0,9) 
 return (
   <>
   < div className='grid grid-cols-3 gap-2 px-16 py-32 capitalize '>

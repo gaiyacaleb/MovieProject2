@@ -8,6 +8,9 @@ import { BiLogoGmail } from "react-icons/bi";
 
 export default function Footer() {
   return (
+
+    // * Footer component for the BollyG website *//
+    // * This component renders the footer section of the website, which includes information about the website, contact links, and a copyright notice. *//
     <footer className='bg-[url(/mediumclouds.png)] text-white pt-20 pb-6  h-auto '>
       <div className='mx-auto p-4'>
       <div className='flex flex-wrap justify-center mb-4'>

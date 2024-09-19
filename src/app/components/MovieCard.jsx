@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Rating } from '@mui/material'
-
+//*A React component that displays a movie card with an image, title, type, rating, and category*//
 export default function MovieCard({title,type,rate,img,category}) {
   return (
     <div className='flex flex-col text-white items-center bg-[url(/darkclouds.png)] bg-cover'>
@@ -14,6 +14,13 @@ export default function MovieCard({title,type,rate,img,category}) {
     <p>{img}</p>
     <p className='underline'>{category}</p>
     <p>{rate}</p>
+
+    {/* {Object} props - Component props
+   {string} props.title - Movie title
+   {string} props.type - Movie type 
+   {number} props.rate - Movie rating (out of 10)
+   {string} props.img - Movie image URL
+   {string} props.category - Movie category  */}
 
   
 

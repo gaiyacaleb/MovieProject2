@@ -4,17 +4,26 @@ import { MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 
 
-
+// * This component represents the contact page of the application,it contains a form for users to send messages, as well as the contact information of the company * //
 
 export default function ContactPage() {
   return (
-    <div className='bg-[url(/enjoyment.png)]  bg-cover h-fit'>
-        <div className='md:block hidden '>
+    <div className='bg-[url(/enjoyment.png)]  bg-cover h-fit '>
+        {/* Desktop view of the contact page */}
+        <div className='md:block hidden sm:grid-cols-1 '>
+            {/*
+          The header section of the contact page.
+         It contains a title and a subtitle.
+         */}
             <div className='mx-auto text-center '>
                 <h3 className='capitalize font-bold text-4xl mt-10 text-blue-950'>Get in touch with us</h3>
                 <p className='text-slate-600 text-xl mt-2'>Got Questions or complaints? Just write us a message</p>
 
             </div>
+            {/**
+           * The contact information section.
+           * It contains the company's phone number, email, and address.
+           */}
 
             <div className='flex h-[600px] w-[980px] rounded-xl border-solid border-2 border-slate-400 border-opacity-50 m-auto my-10 p-4'>
                 <div className='bg-slate-900 h-[550px] w-[550px] pl-2 ml-auto rounded-md p-5'>
@@ -37,6 +46,10 @@ export default function ContactPage() {
                     </address>
 
                 </div>
+                {/**
+           * The message form section.
+           * It contains input fields for the user's first name, last name, email, phone number, and message.
+           */}
 
                 <div className='flex flex-wrap flex-col w-[600px] mt-12 ml-8'>
                     <div>

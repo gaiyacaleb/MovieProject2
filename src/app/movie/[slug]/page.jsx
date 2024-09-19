@@ -8,14 +8,23 @@ import { useContext } from "react";
 import { SidebarContext } from "@/app/providers";
 import { useState } from "react";
 
+// *This component displays the details of a movie, including its title, epilogue, category, and related movies. It also allows users to add the movie to their favorites.* //
 
 const Sat = Satisfy({ subsets: ["latin"], weight: ['400'] });
 
+
+
 export default function MovieDetails({params}) {
+  // *State variables to track whether the movie has been added to favorites and whether the add button is disabled*//
    const [added, setAdded] = useState('')
    const [disable, setDisable] = useState(false)
   const {setVal, movieItem, setMovieItem} = useContext(SidebarContext)
 
+  /**
+   * Handles the addition of a movie to favorites.
+   * 
+   * Disables the add button, updates the added state, increments the favorite count, and adds the movie to the sidebar state.
+   */
   function handleMovieAdd(){
     setDisable(true)
     setAdded('added ')
@@ -25,6 +34,10 @@ export default function MovieDetails({params}) {
 
     const details =movies.find(movie => String(movie.title).split(' ').join('-') == params.slug)
     const relatedMovies = movies.filter((card => card.category == details.category && details.title !== card.title))
+
+    /**
+   * Maps the related movies to MovieCard components.
+   */
 
     const relatedCard = relatedMovies.map((card, index) => <Link href={`/movie/${card.title.split(' ').join('-')}`} title={card.title} className='cursor-pointer' key={index}>
     <MovieCard title={card.title} type={card.type} rate={card.rating} img={card.img}/>

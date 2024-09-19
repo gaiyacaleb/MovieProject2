@@ -1,5 +1,5 @@
 import React from "react";
-
+//Help component that renders a help page with FAQs//
 export default function Help() {
   return (
     <div className="flex items-center justify-center w-full text-white bg-[url(/forestboy.png)] bg-contain h-screen relative z-10">

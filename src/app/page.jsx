@@ -12,6 +12,7 @@ export default function Home() {
     </h1>
         <Header  />
         
+        
         <MovieList />
 
       </div>

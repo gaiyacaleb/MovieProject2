@@ -1,4 +1,6 @@
 "use client"
+//Navbar component that renders a navigation menu with links to various pages//
+//The component uses the `SidebarContext` to display a dynamic value in the "Wishes" link//
 import Link from 'next/link'
 import MobileNav from './MobileNav'
 import { useContext } from 'react'

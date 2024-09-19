@@ -4,6 +4,8 @@ import { SidebarContext } from "../providers"
 import Image from "next/image"
 import Delete from "./Delete"
 
+//*This component displays a list of movies in the user's wish basket. If the basket is empty, it displays a message prompting the user to add a movie.
+//
 export default function WishesPage() {
     const{movieItem} = useContext(SidebarContext)
   return (

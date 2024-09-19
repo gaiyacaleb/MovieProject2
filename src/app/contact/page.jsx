@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <div className='bg-[url(/enjoyment.png)]  bg-cover h-fit '>
         {/* Desktop view of the contact page */}
-        <div className='md:block hidden sm:grid-cols-1 '>
+        <div className='md:block hidden '>
             {/*
           The header section of the contact page.
          It contains a title and a subtitle.

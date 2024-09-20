@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Movie Database App
 
-## Getting Started
+Overview
 
-First, run the development server:
+A movie database application built using Next.js, featuring search functionality, filters, likes, and watch later lists.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Project Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Front-end framework: Next.js
+- Movie data array with properties: title, epilogue, date released, category, type, actors, trailer, rating, keywords, kind
+- Search functionality for movies, categories, and actors
+- Filters for categories and actors
+- Likes and watch later functionality
+- Context API for state management
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Dynamic routing for detailed movie views
+- Movie detail page with all properties
+- Search bar component
+- Filter components for categories and actors
+- Like and watch later functionality
+- Responsive design using CSS and TailwindCSS
+- Accessibility improvements
 
-## Learn More
+Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `git clone (link unavailable)
+2. Install dependencies: npm install or yarn install
+3. Start the development server: npm run dev or yarn dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Header
+- Footer
+- MovieList
+- MovieCard
+- MovieDetail
+- SearchBar
+- FilterCategory
+- FilterActor
+- LikeButton
+- WatchLaterButton
 
-## Deploy on Vercel
+Context API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- MovieContext: manages movie data, filters, likes, and watch later lists
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deployment
+
+Deployed on (link unavailable) or (link unavailable)
+
+Version Control
+
+Using Git with regular commits and branch management
+
+Collaboration
+
+Students are encouraged to work in pairs or small teams
+
+Feedback
+
+
+License
+
+(link unavailable)
+
+Contributors
+
+- Gaiya Caleb
+
+
+Acknowledgments
+
+- Next.js documentation
+- TailwindCSS documentation
+- Stack Overflow community
+
+
+Future Development
+
+- Add more movies to the page
+- Add better Animations for kids to navigate
+- Add trailers to Movies
+

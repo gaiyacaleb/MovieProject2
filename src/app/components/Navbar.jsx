@@ -5,7 +5,7 @@ import Link from 'next/link'
 import MobileNav from './MobileNav'
 import { useContext } from 'react'
 import {SidebarContext} from "../providers"
-import { FaCartShopping } from "react-icons/fa6";
+import { AiFillLike } from "react-icons/ai";
 export default function Navbar() {
   const {val} = useContext(SidebarContext)
   return (
@@ -33,7 +33,7 @@ export default function Navbar() {
 
                 <Link href={'/wishes'}>
                 <li>{val}</li>
-                <p><FaCartShopping /></p>
+                <p><AiFillLike /></p>
                 </Link>
                 
 

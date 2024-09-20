@@ -13,7 +13,7 @@ export default function MovieCard({title,type,rate,img,category}) {
     <p>{type} </p>
     <p>{img}</p>
     <p className='underline'>{category}</p>
-    <p>{rate}</p>
+    
 
     {/* {Object} props - Component props
    {string} props.title - Movie title

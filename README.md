@@ -54,11 +54,6 @@ Version Control
 
 Using Git with regular commits and branch management
 
-Collaboration
-
-Students are encouraged to work in pairs or small teams
-
-Feedback
 
 
 License

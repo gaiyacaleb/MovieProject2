@@ -47,9 +47,12 @@ export default function MovieDetails({params}) {
     
   return (
     <div className= "bg-[url(/darkclouds.png)] h-fit text-white  bg-cover">
-        <h1 className="">{details.title}</h1>
+        <h1 className="font-bold">{details.title}</h1>
         <p className=''>{details.epilogue}</p>
-        <p className="">{details.category}</p>
+        <p className="underline">{details.category}</p>
+        <p>{details.actors}</p>
+        
+    
 
         <button
           onClick={handleMovieAdd}

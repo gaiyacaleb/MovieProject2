@@ -237,7 +237,7 @@ export const movies =[
 	dateReleased: 'June 21, 2019',
 	category: 'Drama/Romance',
 	type: 'Feature Film',
-	actors: '[Shahid Kapoor, Kiara Advani, Suresh Oberoi',
+	actors: 'Shahid Kapoor, Kiara Advani, Suresh Oberoi',
 	keywords: 'Love, Anger, Redemption, Personal Struggle',
 	kind: 'R',
 	rating:'9'
@@ -375,7 +375,7 @@ export const movies =[
 	,{
 	title: 'Pati Patni Aur Woh',
 	img:'Pati-Patni-Aur-Woh.png',
-	epilogue: 'The film concludes with the resolution of the love triangle, where the protagonist rate ',
+	epilogue: 'The film concludes with the resolution of the love triangle, where the protagonist dies ',
 	dateReleased: 'December 9, 1978',
 	category: 'Comedy/Drama',
 	type: 'Feature Film',

@@ -26,7 +26,7 @@ export default function MoviePage() {
    * Renders a message if no search results are found
    */
 const cards = filterLists.length == 0 ?(
-  <h1 className="text-2xl text-yellow-500">Sorry,what you searched for does not exist</h1>
+  <h1 className="text-2xl text-yellow-500">Sorry,what you searched for does not exist.</h1>
 ) : filterLists.map((card,index) => (
   <section  key={index} >
     <Link href={`/movie/${card.title.split(' ').join('-')} `} title={card.title}
